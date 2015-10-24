@@ -12,8 +12,6 @@
 $this->pageTitle = Yii::t('UserModule.views_auth_login', '<strong>Please</strong> sign in');
 $baseUrl = Yii::app()->baseUrl; 
 $cs = Yii::app()->getClientScript();
-//$cs->registerCssFile($baseUrl.'/css/bootstrap.min.css');
-//$cs->registerCssFile($baseUrl.'/css/flatelements.css');
 $cs->registerCssFile($baseUrl.'/css/custom.css');
 ?>
 <div class="container">
