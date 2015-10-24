@@ -13,7 +13,7 @@ $this->pageTitle = Yii::t('UserModule.views_auth_login', '<strong>Please</strong
 $baseUrl = Yii::app()->baseUrl; 
 $cs = Yii::app()->getClientScript();
 //$cs->registerCssFile($baseUrl.'/css/bootstrap.min.css');
-$cs->registerCssFile($baseUrl.'/css/flatelements.css');
+//$cs->registerCssFile($baseUrl.'/css/flatelements.css');
 $cs->registerCssFile($baseUrl.'/css/custom.css');
 ?>
 <div class="container">
@@ -26,24 +26,24 @@ $cs->registerCssFile($baseUrl.'/css/custom.css');
     	<div class="col-xs-12 text-center">
     		<div class="login-icon-list">    			            
             <h2 class="login-sub-title text-center">Choose your email service and Sign In... </h2>
-				<div id="gmail-login" data-placement="top" data-toggle="tooltip" data-original-title="Gmail" style="cursor: pointer; padding-right: 20px;" title="Gmail" class="icon icon-gmail"><img src="images/gmail.png" alt="Gmail" class="designare_grayscale"></div>
+				<div id="gmail-login" data-placement="top" data-toggle="tooltip" data-original-title="Gmail" style="cursor: pointer; padding-right: 20px;" title="Gmail" class="icon icon-gmail"><img src="http://alkurn.net/clients/humhub/images/gmail.png" alt="Gmail" class="designare_grayscale"></div>
 
-				<div id="yahoo-login" data-placement="top" data-toggle="tooltip" data-original-title="Yahoo" style="cursor: pointer; padding-right: 20px;" title="Yahoo" class="icon icon-yahoo"><img src="images/yahoo.png" alt="Yahoo" class="designare_grayscale"></div>
+				<div id="yahoo-login" data-placement="top" data-toggle="tooltip" data-original-title="Yahoo" style="cursor: pointer; padding-right: 20px;" title="Yahoo" class="icon icon-yahoo"><img src="http://alkurn.net/clients/humhub/images/yahoo.png" alt="Yahoo" class="designare_grayscale"></div>
 
-				<div id="facebook-login" data-placement="top" data-toggle="tooltip" data-original-title="Facebook" style="cursor: pointer; padding-right: 20px;" title="Facebook" class="icon icon-facebook"><img src="images/facebook.png" alt="Facebook" class="designare_grayscale"></div>
+				<div id="facebook-login" data-placement="top" data-toggle="tooltip" data-original-title="Facebook" style="cursor: pointer; padding-right: 20px;" title="Facebook" class="icon icon-facebook"><img src="http://alkurn.net/clients/humhub/images/facebook.png" alt="Facebook" class="designare_grayscale"></div>
 
-				<div id="hotmail-login" data-placement="top" data-toggle="tooltip" data-original-title="Hotmail" style="cursor: pointer; padding-right: 20px;" title="Hotmail" class="icon icon-hotmail"><img src="images/hotmail.png" alt="Hotmail" class="designare_grayscale"></div>
+				<div id="hotmail-login" data-placement="top" data-toggle="tooltip" data-original-title="Hotmail" style="cursor: pointer; padding-right: 20px;" title="Hotmail" class="icon icon-hotmail"><img src="http://alkurn.net/clients/humhub/images/hotmail.png" alt="Hotmail" class="designare_grayscale"></div>
 
-				<div id="outlook-login" data-placement="top" data-toggle="tooltip" data-original-title="Outlook" style="cursor: pointer; padding-right: 20px;" title="Outlook" class="icon icon-outlook"><img src="images/outlook.png" alt="Outlook" class="designare_grayscale"></div>
+				<div id="outlook-login" data-placement="top" data-toggle="tooltip" data-original-title="Outlook" style="cursor: pointer; padding-right: 20px;" title="Outlook" class="icon icon-outlook"><img src="http://alkurn.net/clients/humhub/images/outlook.png" alt="Outlook" class="designare_grayscale"></div>
 
-				<div id="aol-login" data-placement="top" data-toggle="tooltip" data-original-title="AOL" style="cursor: pointer; padding-right: 20px;" title="AOL" class="icon icon-aol"><img src="images/aol.png" alt="AOL" class="designare_grayscale"></div>
+				<div id="aol-login" data-placement="top" data-toggle="tooltip" data-original-title="AOL" style="cursor: pointer; padding-right: 20px;" title="AOL" class="icon icon-aol"><img src="http://alkurn.net/clients/humhub/images/aol.png" alt="AOL" class="designare_grayscale"></div>
 				
     		</div>
     	</div>
 
         <div class="col-sm-6 col-md-4 col-md-offset-4" id="gmail-login-form" style="display:none;">
             <div class="account-wall">
-                <img class="profile-img" src="images/gmail.png" alt="">
+                <img class="profile-img" src="http://alkurn.net/clients/humhub/images/gmail.png" alt="">
                 <div class="panel panel-default animated bounceIn" id="login-form"
          style="max-width: 300px; margin: 0 auto 20px; text-align: left;">
 
@@ -100,7 +100,7 @@ $cs->registerCssFile($baseUrl.'/css/custom.css');
 
         <div class="col-sm-6 col-md-4 col-md-offset-4" id="yahoo-login-form" style="display:none;">
             <div class="account-wall">
-                <img class="profile-img" src="images/yahoo.png" alt="">
+                <img class="profile-img" src="http://alkurn.net/clients/humhub/images/yahoo.png" alt="">
                 <div class="panel panel-default animated bounceIn" id="login-form"
          style="max-width: 300px; margin: 0 auto 20px; text-align: left;">
 
@@ -157,7 +157,7 @@ $cs->registerCssFile($baseUrl.'/css/custom.css');
 
         <div class="col-sm-6 col-md-4 col-md-offset-4" id="facebook-login-form" style="display:none;">
             <div class="account-wall">
-                <img class="profile-img" src="images/facebook.png" alt="">
+                <img class="profile-img" src="http://alkurn.net/clients/humhub/images/facebook.png" alt="">
                 <div class="panel panel-default animated bounceIn" id="login-form"
          style="max-width: 300px; margin: 0 auto 20px; text-align: left;">
 
@@ -214,7 +214,7 @@ $cs->registerCssFile($baseUrl.'/css/custom.css');
 
         <div class="col-sm-6 col-md-4 col-md-offset-4" id="hotmail-login-form" style="display:none;">
             <div class="account-wall">
-                <img class="profile-img" src="images/hotmail.png" alt="">
+                <img class="profile-img" src="http://alkurn.net/clients/humhub/images/hotmail.png" alt="">
                 <div class="panel panel-default animated bounceIn" id="login-form"
          style="max-width: 300px; margin: 0 auto 20px; text-align: left;">
 
@@ -271,7 +271,7 @@ $cs->registerCssFile($baseUrl.'/css/custom.css');
 
         <div class="col-sm-6 col-md-4 col-md-offset-4" id="outlook-login-form" style="display:none;">
             <div class="account-wall">
-                <img class="profile-img" src="images/outlook.png" alt="">
+                <img class="profile-img" src="http://alkurn.net/clients/humhub/images/outlook.png" alt="">
                 <div class="panel panel-default animated bounceIn" id="login-form"
          style="max-width: 300px; margin: 0 auto 20px; text-align: left;">
 
@@ -328,7 +328,7 @@ $cs->registerCssFile($baseUrl.'/css/custom.css');
 
         <div class="col-sm-6 col-md-4 col-md-offset-4" id="aol-login-form" style="display:none;">
             <div class="account-wall">
-                <img class="profile-img" src="images/aol.png" alt="">
+                <img class="profile-img" src="http://alkurn.net/clients/humhub/images/aol.png" alt="">
                 <div class="panel panel-default animated bounceIn" id="login-form"
          style="max-width: 300px; margin: 0 auto 20px; text-align: left;">
 
